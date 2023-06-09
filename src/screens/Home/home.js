@@ -17,9 +17,9 @@ import ListVideo from '../../components/ListVideo/ListVideo';
 
 //Ilustrai
 import Ilustrasi_Beach from '../../assets/ilustrasi/beach.jpg'
-import Ilustrasi_Promo1 from '../../assets/ilustrasi/bisnisTambak.png'
-import Ilustrasi_Promo2 from '../../assets/ilustrasi/promo1.png'
-import Ilustrasi_Promo3 from '../../assets/ilustrasi/tutorialFishCurry.png'
+import Ilustrasi_Promo1 from '../../assets/ilustrasi/bannerWonderEdu.png'
+import Ilustrasi_Promo2 from '../../assets/ilustrasi/bannerMyTambak.png'
+import Ilustrasi_Promo3 from '../../assets/ilustrasi/bannerWonderFood.png'
 
 
 export default function Home() {
@@ -83,9 +83,9 @@ export default function Home() {
 
         <View>
           <ScrollView horizontal={true} showsHorizontalScrollIndicator={false} style={{ paddingLeft: ms(8) }}>
-            <Promo source={Ilustrasi_Promo1} onPress={() => Navigation.navigate('MyTambak')} />
-            <Promo source={Ilustrasi_Promo2} onPress={() => Navigation.navigate('WonderFood')} />
-            <Promo source={Ilustrasi_Promo3} onPress={() => Navigation.navigate('WonderEdu')} />
+            <Promo source={Ilustrasi_Promo1} onPress={() => Navigation.navigate('WonderEdu')} />
+            <Promo source={Ilustrasi_Promo2} onPress={() => Navigation.navigate('MyTambak')} />
+            <Promo source={Ilustrasi_Promo3} onPress={() => Navigation.navigate('WonderFood')} />
           </ScrollView>
         </View>
 
