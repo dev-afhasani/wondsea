@@ -78,7 +78,7 @@ export default function Home() {
         </View>
 
         <View style={styles.promoContainer}>
-          <Title name={"Belanja makin hemat 🤑"} subtitle={"Dapetin penawaran terbaik!"}></Title>
+          <Title name={"Mau usaha tambak? Mau belanja produk laut? 🤗 "} subtitle={"Dapetin semuanya di Wondsea!"}></Title>
         </View>
 
         <View>
