@@ -67,7 +67,7 @@ export default function Perlengkapan() {
                 products.map((product) => (
                   <View key={product.id}>
                     <Product
-                      source={product.image}
+                      source={{ uri: `${product.image}` }}
                       name={product.title}
                       mitra={product.mitra}
                       price={product.price}

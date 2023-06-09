@@ -38,7 +38,6 @@ const styles = StyleSheet.create({
   productContainer: {
     alignItems: 'center',
     width: ms(170),
-    height: ms(320),
     marginTop: ms(10),
     borderWidth: ms(0.3),
     paddingBottom: ms(16),
